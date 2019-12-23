@@ -1,7 +1,7 @@
 {
-    "manifest_version": 1,
-    "name": "JwAutoReplay",
-    "description": "JwAutoReplay",
+    "manifest_version": 2,
+    "name": "JwMethuselah",
+    "description": "Jw Auto Replay",
     "version": "1.0.0",
     "icons": {
       "16": "icon.png",

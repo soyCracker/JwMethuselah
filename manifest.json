@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "JwMethuselah",
-    "description": "Jw Auto Replay",
+    "description": "Jw Audio Auto Replay",
     "version": "1.0.0",
     "icons": {
       "16": "icon.png",
@@ -14,6 +14,7 @@
     "permissions": [
       "activeTab"
     ],
+    "default_language":"en",
     "content_scripts": [
       {
         "matches": [

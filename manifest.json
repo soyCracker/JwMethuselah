@@ -9,8 +9,7 @@
       "128": "icon.png"
     },
     "browser_action": {
-      "default_icon": "icon.png",
-      "default_popup": "popup.html"
+      "default_icon": "icon.png"
     },
     "permissions": [
       "activeTab"
@@ -21,7 +20,7 @@
           "https://www.jw.org/*"
         ],
         "js": [
-          "execute.js"
+          "jquery-3.4.1.min.js", "execute.js"
         ]
       }
     ]

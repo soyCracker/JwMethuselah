@@ -3,24 +3,30 @@
     "name": "JwMethuselah",
     "description": "Jw Audio Auto Replay",
     "version": "1.0.0",
-    "icons": {
+    "icons": 
+    {
       "16": "icon.png",
       "48": "icon.png",
       "128": "icon.png"
     },
-    "browser_action": {
+    "browser_action": 
+    {
       "default_icon": "icon.png"
     },
-    "permissions": [
+    "permissions": 
+    [
       "activeTab"
     ],
     "default_language":"en",
-    "content_scripts": [
+    "content_scripts": 
+    [
       {
-        "matches": [
+        "matches": 
+        [
           "https://www.jw.org/*"
         ],
-        "js": [
+        "js": 
+        [
           "jquery-3.4.1.min.js", "execute.js"
         ]
       }
